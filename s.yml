@@ -1,6 +1,6 @@
 edition: 1.0.0          
 name: Waline
-access: "{{ access }}"
+access: default
 
 vars:
   region: cn-beijing
@@ -22,6 +22,7 @@ services:
         name: ${vars.service.name}
         description: ${vars.service.description}
         runtime: nodejs14
+        ossBucket: waline
         codeUri: ./
         handler: index.handler
         memorySize: 256
