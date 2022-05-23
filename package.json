@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/walinejs/aliyun-fc-starter#readme",
   "dependencies": {
-    "@serverless-devs/fc-http": "^0.0.5",
+    "@serverless-devs/fc-http": "^0.1.0",
     "@waline/vercel": "^1.5.0"
   }
 }
